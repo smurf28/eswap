@@ -1,0 +1,145 @@
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+img{
+  position: absolute;
+  margin-left: 45%;
+  width: 150px;
+
+}
+.content{
+  	margin: 100px auto 30px auto;
+  	padding: 20px;
+	width: 980px;
+	overflow: hidden;
+	border-radius: 20px; 
+	border: 4px solid #a1d0c6;
+}
+.title{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 20pt;
+	font-family: Georgia, Times New Roman,serif;
+}
+.title a{
+	float: right;
+	text-decoration: none;
+	color: white;
+	background-color: #fcd66d;
+	font-size: 65%;
+	padding: 5px;
+	border-radius: 10px;
+	margin-right: 15px;
+	 box-shadow: 0px 0px 5px #fcd66d;
+	 font-style: bold;
+}
+#reply{
+	border-top: 3px solid #a1d0c6;
+}
+#reply .title{
+	margin-left: 300px;
+}
+#th,#reply{
+	width: 980px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+#left{
+	border: 12px solid #fcd66d;
+	float: left;
+	width: 38%;
+	font-size: 13pt;
+	overflow: hidden;
+	background-color: #fcd66d;
+}
+#left img{
+	margin: 0;
+	width: 370px;
+	height: 370px;
+	position: relative;
+}
+#right{
+	margin: 0;
+	width: 59%;
+	float: right;
+	position: relative;
+}
+#right img{
+	margin:0 10px 10px 15px;
+	width: 260px;
+	height: 260px;
+	position: relative;
+}
+.describ{
+	margin-left: 15px;
+}
+.text{
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+#column{
+	font-family: Georgia,"Times New Roman",serif;
+	width: 80%;
+	font-size: 12pt;
+	background-color: #fcd66d;
+	border-radius: 20px;
+	padding: 10px;
+	padding-left: 20px;
+	margin: 8px auto 8px auto;
+	background-color:rgba(0,0,0,0.2);
+	overflow: hidden;
+	}
+#column span{
+	display: block;
+	margin-bottom:5px;
+}
+#column .submit{
+	margin-top: 5px;
+	text-decoration: none;
+	color: white;
+	background-color: #fcd66d;
+	padding: auto 2px auto 2px;
+	border-radius: 10px;
+	border:2px white solid;
+	margin-right: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+#area{
+	text-decoration: none;
+	border: 3px solid black;
+	margin-left: 9%;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 10px;
+	width: 80%;
+	height: 100px;
+	background-color: #a1d0c6;
+	opacity: 0.7;
+}
+#column form textarea{
+	text-decoration: none;
+	opacity: 0.7;
+	border:0;
+	border-radius: 10px;
+	width: 60%;
+	height: 20px;
+	padding: 5px;
+}
+.sub{
+	text-decoration: none;
+	color: black;
+	background-color: #fcd66d;
+	padding: 0 5px 3px 5px;
+	border-radius: 10px;
+	font-style: bold;
+	font-size: 120%;
+	border:2px black solid;
+	margin-left: 400px;
+	margin-top: 10px;
+	}

@@ -1,0 +1,103 @@
+div.form_style {
+  margin:100px auto 100px auto;
+  width: 1000px;
+  overflow: hidden;
+  background-color: #a1d0c6;
+  opacity:0.7;
+  border-radius: 10px; 
+  box-shadow: 4px 3px 5px gray;
+}
+
+
+/*///// Form /////*/ 
+
+form.form_style {
+	padding: 20px;
+  font-size: 12pt;
+}
+hr{
+  border: 3px solid black;
+  width: 700px;
+  margin-top: 20px;
+}
+#infor{
+    margin-left: 400px;
+}
+form.form_style div {
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+} 
+form.form_style label{
+    margin-right: 10px;
+    line-height:30px;
+    font-weight:bold;
+    font-size: 12pt;
+    float: left;
+}
+input,textarea,select{
+  width:300px;
+  margin-bottom:10px;
+  line-height:18px;
+  padding:5px 10px;
+  border-radius: 10px; 
+  border:1px solid #CCC;
+}
+.picture button{
+  width:200px;
+  border-radius: 10px; 
+  margin-bottom:10px;
+  padding: 0px;
+
+}
+textarea{
+  display: block;
+  position: relative;
+  margin-top: 30px;
+  width:500px;
+  height: 100px;
+}
+select{
+  width: 100px;
+}
+form.form_style  .button{  
+  width: 100px;
+  margin-right: 10px;
+    border-radius: 10px; 
+    border: 3px solid white;
+    background-color: #a1d0c6;
+    /*padding: 5px 10px 5px 10px;*/
+    font-size: 70%;
+    font-weight: bold;
+
+}
+
+img{
+  position: absolute;
+  margin-left: 45%;
+  width: 150px;
+}
+
+/*/////////goods////////*/
+
+#content{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 700px;
+  overflow: hidden;
+}
+#content a{
+  width: 200px;
+  height: 200px;
+  border: 1px solid #f7c331;
+  float: left;
+  margin: 10px 0px 10px 25px;
+  overflow: hidden;
+}
+#content img {
+  position: relative;
+  margin: 0;
+}
